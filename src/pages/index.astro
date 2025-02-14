@@ -4,6 +4,55 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout>
 
-    Hello there!
+    <div class="card">
+        <div class="inner">
+            Hello there!
+        </div>
+    </div>
 
 </Layout>
+
+<style>
+
+.card {
+    padding: 0.5em;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+
+    .inner {
+        padding: 0.5em 1em;
+    }
+
+    &::before,
+    &::after {
+        display: block;
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: 0.3em;
+        transition: opacity 0.3s ease-in;
+    }
+    
+    &::before {
+        box-shadow: 0 0 1.5em 0 rgb(0, 0, 0, 0.2);
+        opacity: 0.1;
+    }
+
+    &::after {
+        box-shadow: 0 0 0.5em 0 rgb(0, 0, 0, 0.3);
+        opacity: 0.5;
+    }
+
+    &:hover {
+        &::before {
+            opacity: 1;
+        }
+
+        &::after {
+            opacity: 1;
+        }
+    }
+}
+
+</style>

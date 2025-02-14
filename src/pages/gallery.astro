@@ -4,6 +4,165 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout>
 
-    Gallery
+    <ul class="gallery">
+        <li><a href="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=1920&auto=format&fit=crop&q=90&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW91bnRhaW5zfGVufDB8fDB8fHww"><img src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=300&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW91bnRhaW5zfGVufDB8fDB8fHww" /></a></li>
+        <li><a href="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&auto=format&fit=crop&q=90&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW5zfGVufDB8fDB8fHww"><img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW5zfGVufDB8fDB8fHww" /></a></li>
+        <li><a href="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1920&auto=format&fit=crop&q=90&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW91bnRhaW5zfGVufDB8fDB8fHww"><img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=300&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW91bnRhaW5zfGVufDB8fDB8fHww" /></a></li>
+        <li><a href="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1920&auto=format&fit=crop&q=90&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW91bnRhaW5zfGVufDB8fDB8fHww"><img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=300&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW91bnRhaW5zfGVufDB8fDB8fHww" /></a></li>
+        <li><a href="https://images.unsplash.com/photo-1456428199391-a3b1cb5e93ab?w=1920&auto=format&fit=crop&q=90&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1vdW50YWluc3xlbnwwfHwwfHx8MA%3D%3D"><img src="https://images.unsplash.com/photo-1456428199391-a3b1cb5e93ab?w=300&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1vdW50YWluc3xlbnwwfHwwfHx8MA%3D%3D" /></a></li>
+        <li><a href="https://images.unsplash.com/photo-1570641963303-92ce4845ed4c?w=1920&auto=format&fit=crop&q=90&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1vdW50YWluc3xlbnwwfHwwfHx8MA%3D%3D"><img src="https://images.unsplash.com/photo-1570641963303-92ce4845ed4c?w=300&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1vdW50YWluc3xlbnwwfHwwfHx8MA%3D%3D" /></a></li>
+        <li><a href="https://images.unsplash.com/photo-1540390769625-2fc3f8b1d50c?w=1920&auto=format&fit=crop&q=90&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG1vdW50YWluc3xlbnwwfHwwfHx8MA%3D%3D"><img src="https://images.unsplash.com/photo-1540390769625-2fc3f8b1d50c?w=300&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG1vdW50YWluc3xlbnwwfHwwfHx8MA%3D%3D" /></a></li>
+        <li><a href="https://images.unsplash.com/photo-1472791108553-c9405341e398?w=1920&auto=format&fit=crop&q=90&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fG1vdW50YWluc3xlbnwwfHwwfHx8MA%3D%3D"><img src="https://images.unsplash.com/photo-1472791108553-c9405341e398?w=300&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fG1vdW50YWluc3xlbnwwfHwwfHx8MA%3D%3D" /></a></li>
+    </ul>
+
+    <dialog>
+        <button>Close</button>
+        <img> 
+    </dialog>
+
+    <script is:inline>
+
+        const dialogEl = document.querySelector("dialog");
+        const galleryEl = document.querySelector(".gallery");
+        const closeButtonEl = document.querySelector("dialog button");
+        const imageDialogEl = document.querySelector("dialog img");
+
+        [...galleryEl.querySelectorAll('li a')].forEach((link) => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                console.log(e.currentTarget.href);
+
+                imageDialogEl.setAttribute('src', e.currentTarget.href);
+
+                dialogEl.showModal();
+            })
+        })
+
+        closeButtonEl.addEventListener("click", () => {
+            dialogEl.close();
+        });
+
+    </script>
+
+    <ul class="carousel">
+        <li><a href="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=1920&auto=format&fit=crop&q=90&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW91bnRhaW5zfGVufDB8fDB8fHww"><img src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=300&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW91bnRhaW5zfGVufDB8fDB8fHww" /></a></li>
+        <li><a href="#"><img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW5zfGVufDB8fDB8fHww" /></a></li>
+        <li><a href="#"><img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=300&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW91bnRhaW5zfGVufDB8fDB8fHww" /></a></li>
+        <li><a href="#"><img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=300&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW91bnRhaW5zfGVufDB8fDB8fHww" /></a></li>
+        <li><a href="#"><img src="https://images.unsplash.com/photo-1456428199391-a3b1cb5e93ab?w=300&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1vdW50YWluc3xlbnwwfHwwfHx8MA%3D%3D" /></a></li>
+        <li><a href="#"><img src="https://images.unsplash.com/photo-1570641963303-92ce4845ed4c?w=300&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1vdW50YWluc3xlbnwwfHwwfHx8MA%3D%3D" /></a></li>
+        <li><a href="#"><img src="https://images.unsplash.com/photo-1540390769625-2fc3f8b1d50c?w=300&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG1vdW50YWluc3xlbnwwfHwwfHx8MA%3D%3D" /></a></li>
+        <li><a href="#"><img src="https://images.unsplash.com/photo-1472791108553-c9405341e398?w=300&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fG1vdW50YWluc3xlbnwwfHwwfHx8MA%3D%3D" /></a></li>
+    </ul>
 
 </Layout>
+
+<style>
+
+    .gallery {
+        padding: 0;
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+        margin-bottom: 4em;
+        
+        &::after,
+        li {
+            flex: 1 1 200px;
+            display: block;
+        }
+
+        &::after {
+            content: '';
+        }
+
+
+        &:has(li:hover) li {
+            opacity: 0.2;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+
+        li {
+            transition: opacity 0.3s ease-in;
+            
+            a {
+                display: block;
+                aspect-ratio: 16/9;
+                overflow: hidden;
+                position: relative;
+                border-radius: 0.3em;
+                box-shadow: 0 0 0.5em 0 rgb(0, 0, 0, 0.2);
+                border: 1px solid #fff;
+                transition: scale 0.3s ease-in-out;
+                position: relative;
+
+                &:hover {
+                    scale: 1.2;
+                    z-index: 10;
+                }
+            }
+
+            img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                translate: -50% -50%;
+            }
+        }
+    }
+
+    .carousel {
+        overflow: auto;
+        display: flex;
+        padding: 1em 0;
+        gap: 1em;
+        scroll-snap-type: x proximity;
+
+        li {
+            flex: 0 0 300px;
+            display: block;
+            scroll-snap-align: center;
+
+            a {
+                display: block;
+                aspect-ratio: 16/9;
+                overflow: hidden;
+                position: relative;
+                border-radius: 0.3em;
+                border: 1px solid #fff;
+            }
+        }
+    }
+
+    dialog {
+        max-width: 700px;
+        margin: auto;
+        position: relative;
+        border: none;
+        border-radius: 1em;
+        box-shadow: 0 0 2em 0 rgb(0, 0, 0, 0.3);
+
+        button {
+            position: absolute;
+            top: 1em;
+            right: 1em;
+            background: #000;
+            color: #fff;
+            border-radius: 0.3em;
+            border: none;
+            font-size: 0.9em;
+            padding: 0.5em 1em;
+            cursor: pointer;
+        }
+
+        &::backdrop {
+            background: rgb(0, 0, 0, 0.9);
+            opacity: 1;
+            transition: opacity 0.3s ease-in;
+        }
+    }
+
+</style>
